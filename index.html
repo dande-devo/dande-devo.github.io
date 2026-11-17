@@ -1,0 +1,98 @@
+<!doctype html>
+<!--
+  Destek sayfası: App Store Connect'te "Destek URL'si" ve "Pazarlama URL'si" olarak bu sitenin ana adresini ver.
+  Support page: use this site's root address as both the Support URL and the Marketing URL.
+  Oyun yayına girince [[APP-STORE-BAĞLANTISI]] yerine mağaza bağlantısını yaz (aşağıda).
+-->
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kazı Günü · Dig Day</title>
+<meta name="description" content="Kazı Günü (Dig Day): toprağı kaz, fosilleri ve hazineleri ortaya çıkar. Destek ve iletişim.">
+<link rel="icon" href="ikon.png">
+<style>
+  :root {
+    --bg-top: #2a5fe0; --bg-bottom: #0a1450; --card: rgba(4, 10, 40, 0.42); --edge: rgba(255, 255, 255, 0.14);
+    --text: #f3f6ff; --muted: #b9c6ef; --gold: #ffcf45; --link: #ffd970;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; color: var(--text);
+    font: 17px/1.6 ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom) 60%) fixed, var(--bg-bottom);
+    min-height: 100vh;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+  .hero { text-align: center; margin-bottom: 28px; }
+  .hero img { width: 120px; height: 120px; border-radius: 28px; box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4); }
+  .hero h1 { margin: 16px 0 0; font-size: 40px; line-height: 1.1; font-weight: 900; letter-spacing: -0.5px; }
+  .hero h1 .dot { color: var(--gold); }
+  .nw { white-space: nowrap; }
+  .hero p { margin: 8px 0 0; color: var(--muted); }
+  .store {
+    display: inline-block; margin-top: 18px; padding: 12px 24px; border-radius: 16px; font-weight: 800;
+    background: linear-gradient(180deg, #ffe07a, #ffb52e); color: #0a1238; text-decoration: none;
+    box-shadow: 0 5px 0 #c9790f;
+  }
+  nav { display: flex; justify-content: center; gap: 8px; margin: 0 0 20px; flex-wrap: wrap; }
+  nav a {
+    padding: 6px 14px; border-radius: 999px; background: var(--card); border: 1px solid var(--edge);
+    color: var(--text); text-decoration: none; font-weight: 700; font-size: 15px;
+  }
+  section { background: var(--card); border: 1px solid var(--edge); border-radius: 20px; padding: 8px 22px 18px; margin-bottom: 20px; }
+  h2 { color: var(--gold); font-size: 22px; margin: 18px 0 8px; }
+  details { border-top: 1px solid var(--edge); padding: 10px 0; }
+  details:first-of-type { border-top: 0; }
+  summary { cursor: pointer; font-weight: 700; }
+  details p { margin: 8px 0 0; }
+  a { color: var(--link); }
+  footer { color: var(--muted); font-size: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="ikon.png" alt="Kazı Günü">
+    <h1><span class="nw">Kazı Günü</span> <span class="dot">·</span> <span class="nw">Dig Day</span></h1>
+    <p>Kaz · Bul · Zengin Ol &nbsp;—&nbsp; Dig · Find · Get Rich</p>
+    <!-- Oyun yayına girince: alttaki satırda bağlantıyı yaz, satırın başındaki ve sonundaki yorum işaretlerini sil. -->
+    <!-- <a class="store" href="[[APP-STORE-BAĞLANTISI]]">App Store'dan indir · Download on the App Store</a> -->
+  </div>
+  <nav><a href="#tr">Türkçe</a><a href="#en">English</a><a href="gizlilik.html">Gizlilik · Privacy</a></nav>
+
+  <section id="tr" lang="tr">
+    <h2>Destek</h2>
+    <p>Parmağınla toprağı kazı; altınları, fosilleri ve efsanevi hazineleri ortaya çıkar. Sorunun ya da önerin varsa yaz: <a href="mailto:appledevcagatay@gmail.com">appledevcagatay@gmail.com</a></p>
+    <details><summary>Satın aldığım paket görünmüyor, ne yapmalıyım?</summary>
+      <p>Oyunda <em>Ayarlar → Satın alımları geri yükle</em>'ye dokun. Reklamsız Paket, Altın Dokunuş ve Stil Paketi Apple kimliğine bağlıdır ve yeni cihazda da geri gelir. Altın keseleri tek seferliktir; harcandıktan sonra geri yüklenmez.</p></details>
+    <details><summary>Reklamları nasıl kaldırırım?</summary>
+      <p>Dükkan'daki <em>Reklamsız Paket</em> bütün reklamları kaldırır; ödüllü reklamların ödülleri de reklam izlemeden hemen verilir.</p></details>
+    <details><summary>Reklam izinlerimi nasıl değiştiririm?</summary>
+      <p>Takip izni için iPhone'da <em>Ayarlar → Gizlilik ve Güvenlik → İzleme</em>. Avrupa'daysan oyunda <em>Ayarlar → Gizlilik → Reklam izinlerini değiştir</em>.</p></details>
+    <details><summary>Yeni telefona geçince ilerlemem gelir mi?</summary>
+      <p>İlerleme cihazında saklanır. Yeni telefonu iCloud yedeğinden ya da eski telefondan aktararak kurarsan ilerlemen de gelir.</p></details>
+    <details><summary>Olasılıkları nerede görürüm?</summary>
+      <p>Pazar sekmesinde her kazı alanının altındaki <em>Olasılıklar</em>'a dokun: her buluntunun çıkma ihtimali ve değeri orada yazar.</p></details>
+  </section>
+
+  <section id="en" lang="en">
+    <h2>Support</h2>
+    <p>Scratch the soil with your finger to uncover gold, fossils and legendary treasure. Questions or ideas? Write to <a href="mailto:appledevcagatay@gmail.com">appledevcagatay@gmail.com</a></p>
+    <details><summary>A pack I bought is missing. What should I do?</summary>
+      <p>In the game, tap <em>Settings → Restore purchases</em>. The Ad-Free Pack, Golden Touch and Style Pack belong to your Apple Account and come back on a new device too. Gold packs are one-time; once spent they cannot be restored.</p></details>
+    <details><summary>How do I remove ads?</summary>
+      <p>The <em>Ad-Free Pack</em> in the Shop removes every ad, and rewards that normally need an ad are given straight away.</p></details>
+    <details><summary>How do I change my ad permissions?</summary>
+      <p>For tracking, go to <em>Settings → Privacy &amp; Security → Tracking</em> on your iPhone. In Europe, use <em>Settings → Privacy → Change ad consent</em> in the game.</p></details>
+    <details><summary>Will my progress move to a new phone?</summary>
+      <p>Progress is stored on your device. If you set up the new phone from an iCloud backup or by transferring from the old one, your progress comes along.</p></details>
+    <details><summary>Where can I see the odds?</summary>
+      <p>In the Market tab, tap <em>Odds</em> under any dig site to see the chance and value of every find.</p></details>
+  </section>
+
+  <footer>© 2026 Dande Dev · <a href="gizlilik.html">Gizlilik Politikası · Privacy Policy</a></footer>
+</main>
+</body>
+</html>
